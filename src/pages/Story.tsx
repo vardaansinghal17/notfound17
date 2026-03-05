@@ -1,34 +1,34 @@
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
-import heroMain from "@/assets/hero-main.jpg";
-import jacket1 from "@/assets/jacket-1.jpg";
-import lifestyle1 from "@/assets/lifestyle-1.jpg";
-import patches from "@/assets/patches.jpg";
+import story1 from "@/assets/story-1.jpg";
+import story2 from "@/assets/story-2.jpg";
+import story3 from "@/assets/story-3.jpg";
+import story4 from "@/assets/story-4.jpg";
 
 const storyChapters = [
   {
     label: "Chapter 01",
     title: "THE PROBLEM",
     body: "Fashion became a factory. Identity became a trend cycle. People wore what algorithms told them to wear, not what their soul needed. Clothing lost its meaning — and so did the people wearing it.",
-    image: heroMain,
+    image: story1,
   },
   {
     label: "Chapter 02",
     title: "THE REBELLION",
     body: "We rejected the system. Not loudly, not violently — but quietly, deliberately. We chose to create something that couldn't be replicated, couldn't be scaled, couldn't be reduced to a marketing campaign. Something real.",
-    image: jacket1,
+    image: story2,
   },
   {
     label: "Chapter 03",
     title: "THE MEANING OF NF17",
     body: "NOTFOUND17. Not found in the system. Not found in the mainstream. The number 17 — the age of awakening, the moment you realize you don't have to follow the path they laid out for you. Only 17 pieces per size, because if everyone has it, it means nothing.",
-    image: lifestyle1,
+    image: story3,
   },
   {
     label: "Chapter 04",
     title: "THE COMMUNITY",
     body: "NF17 isn't a brand you buy — it's a circle you join. Creators, thinkers, rebels, dreamers. People who wear their identity on their sleeve — literally. Every patch tells a story. Every jacket is a conversation.",
-    image: patches,
+    image: story4,
   },
 ];
 
